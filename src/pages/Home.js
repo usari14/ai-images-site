@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TbPhoto, TbBrandShopee, TbBolt, TbPalette, TbLayersSubtract, TbTrendingUp } from 'react-icons/tb';
+import { TbPhoto, TbBolt, TbPalette, TbLayersSubtract, TbTrendingUp } from 'react-icons/tb';
 import { HiCheckCircle } from 'react-icons/hi';
 import { BsShopWindow, BsStars } from 'react-icons/bs';
 import { MdOutlineAutoAwesome } from 'react-icons/md';

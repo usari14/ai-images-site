@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ai-images-site">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
