@@ -1,17 +1,19 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { TbSparkles } from 'react-icons/tb';
+import { HiMenu, HiX } from 'react-icons/hi';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const { pathname } = useLocation();
 
   return (
     <nav className="navbar">
       <Link to="/" className="nav-logo">
-        <span className="logo-icon">✦</span> PixelMind AI
+        <TbSparkles className="logo-icon" />
+        AutoScene AI
       </Link>
       <button className="nav-toggle" onClick={() => setOpen(!open)} aria-label="menu">
-        <span /><span /><span />
+        {open ? <HiX size={24} /> : <HiMenu size={24} />}
       </button>
       <ul className={`nav-links ${open ? 'open' : ''}`}>
         <li><a href="/#features" onClick={() => setOpen(false)}>Features</a></li>

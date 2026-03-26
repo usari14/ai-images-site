@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import { TbSparkles } from 'react-icons/tb';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <span className="logo-icon">✦</span> PixelMind AI
+          <span className="footer-logo"><TbSparkles className="logo-icon" /> AutoScene AI</span>
           <p>AI-powered product images for your Shopify store.</p>
         </div>
         <div className="footer-links">
@@ -15,7 +16,7 @@ export default function Footer() {
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
       </div>
-      <p className="footer-copy">© {new Date().getFullYear()} PixelMind AI. All rights reserved.</p>
+      <p className="footer-copy">© {new Date().getFullYear()} AutoScene AI. All rights reserved.</p>
     </footer>
   );
 }
