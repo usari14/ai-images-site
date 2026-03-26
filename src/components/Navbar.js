@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="navbar">
       <Link to="/" className="nav-logo">
         <TbSparkles className="logo-icon" />
-        AutoScene AI
+        ProductPix AI
       </Link>
       <button className="nav-toggle" onClick={() => setOpen(!open)} aria-label="menu">
         {open ? <HiX size={24} /> : <HiMenu size={24} />}

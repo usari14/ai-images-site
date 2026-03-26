@@ -40,7 +40,7 @@ const features = [
 ];
 
 const steps = [
-  { num: '01', icon: <BsShopWindow size={22} />, title: 'Install the App', desc: 'Add AutoScene AI to your Shopify store in one click from the Shopify App Store.' },
+  { num: '01', icon: <BsShopWindow size={22} />, title: 'Install the App', desc: 'Add ProductPix AI to your Shopify store in one click from the Shopify App Store.' },
   { num: '02', icon: <TbPhoto size={22} />, title: 'Select a Product', desc: 'Choose any product from your catalog and upload an existing photo or start from scratch.' },
   { num: '03', icon: <MdOutlineAutoAwesome size={22} />, title: 'Describe Your Vision', desc: 'Type a simple prompt like "white sneaker on marble floor, soft lighting" and hit Generate.' },
   { num: '04', icon: <TbBolt size={22} />, title: 'Publish Instantly', desc: 'Pick your favorite result and publish it directly to your product listing with one click.' },
@@ -78,12 +78,12 @@ const plans = [
 
 const faqs = [
   {
-    q: 'Do I need design skills to use AutoScene AI?',
+    q: 'Do I need design skills to use ProductPix AI?',
     a: 'Not at all. Just describe what you want in plain English and the AI handles the rest.',
   },
   {
     q: 'Can I use the generated images commercially?',
-    a: 'Yes. All images generated through AutoScene AI are fully licensed for commercial use in your Shopify store.',
+    a: 'Yes. All images generated through ProductPix AI are fully licensed for commercial use in your Shopify store.',
   },
   {
     q: 'What image formats are supported?',
@@ -243,7 +243,7 @@ export default function Home() {
       <section className="cta-banner">
         <div className="container">
           <h2>Ready to Transform Your Product Images?</h2>
-          <p>Join 1,000+ Shopify merchants already using AutoScene AI.</p>
+          <p>Join 1,000+ Shopify merchants already using ProductPix AI.</p>
           <a href="https://apps.shopify.com" target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
             Add to Shopify — It's Free to Start <FiArrowRight size={18} />
           </a>

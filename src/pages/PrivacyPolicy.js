@@ -11,12 +11,12 @@ export default function PrivacyPolicy() {
         <p className="policy-date">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
         <p>
-          AutoScene AI ("we", "our", or "us") operates as a Shopify application. This Privacy Policy explains how we collect,
+          ProductPix AI ("we", "our", or "us") operates as a Shopify application. This Privacy Policy explains how we collect,
           use, and protect information when you install and use our app.
         </p>
 
         <h2>1. Information We Collect</h2>
-        <p>When you install AutoScene AI, we collect:</p>
+        <p>When you install ProductPix AI, we collect:</p>
         <ul>
           <li><strong>Store Information:</strong> Your Shopify store URL, store name, and email address.</li>
           <li><strong>Product Data:</strong> Product titles, descriptions, and images you choose to process with our app.</li>
@@ -62,7 +62,7 @@ export default function PrivacyPolicy() {
           <li>Object to or restrict certain processing activities.</li>
           <li>Data portability (receive your data in a structured format).</li>
         </ul>
-        <p>To exercise any of these rights, contact us at <a href="mailto:privacy@autosceneai.com">privacy@autosceneai.com</a>.</p>
+        <p>To exercise any of these rights, contact us at <a href="mailto:privacy@productpixai.com">privacy@productpixai.com</a>.</p>
 
         <h2>7. Cookies</h2>
         <p>
@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
 
         <h2>9. Children's Privacy</h2>
         <p>
-          AutoScene AI is not directed at individuals under the age of 18. We do not knowingly collect data from minors.
+          ProductPix AI is not directed at individuals under the age of 18. We do not knowingly collect data from minors.
         </p>
 
         <h2>10. Changes to This Policy</h2>
@@ -90,8 +90,8 @@ export default function PrivacyPolicy() {
         <h2>11. Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us:</p>
         <ul>
-          <li>Email: <a href="mailto:privacy@autosceneai.com">privacy@autosceneai.com</a></li>
-          <li>Website: <a href="https://autosceneai.com">autosceneai.com</a></li>
+          <li>Email: <a href="mailto:privacy@productpixai.com">privacy@productpixai.com</a></li>
+          <li>Website: <a href="https://productpixai.com">productpixai.com</a></li>
         </ul>
       </div>
     </main>

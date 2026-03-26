@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <span className="footer-logo"><TbSparkles className="logo-icon" /> AutoScene AI</span>
+          <span className="footer-logo"><TbSparkles className="logo-icon" /> ProductPix AI</span>
           <p>AI-powered product images for your Shopify store.</p>
         </div>
         <div className="footer-links">
@@ -16,7 +16,7 @@ export default function Footer() {
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
       </div>
-      <p className="footer-copy">© {new Date().getFullYear()} AutoScene AI. All rights reserved.</p>
+      <p className="footer-copy">© {new Date().getFullYear()} ProductPix AI. All rights reserved.</p>
     </footer>
   );
 }
